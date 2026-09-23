@@ -1,0 +1,16 @@
+[theme]
+base = "dark"
+primaryColor = "#8B7CFF"
+backgroundColor = "#080B12"
+secondaryBackgroundColor = "#121827"
+textColor = "#F4F7FF"
+font = "sans-serif"
+
+[browser]
+gatherUsageStats = false
+
+[server]
+# Transformers exposes hundreds of lazily imported optional vision modules.
+# Streamlit's source watcher probes them and floods the terminal with harmless
+# torchvision import traces. Model and prompt changes require a restart anyway.
+fileWatcherType = "none"

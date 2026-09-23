@@ -1,0 +1,16 @@
+# Install CUDA PyTorch separately first (see training/README.md), then install
+# this file inside .venv-training.
+transformers==5.9.0
+peft==0.19.1
+accelerate>=1.10,<2
+datasets>=4,<5
+evaluate>=0.4,<1
+jiwer>=4,<5
+soundfile>=0.13,<1
+librosa>=0.11,<1
+sentencepiece>=0.2,<1
+protobuf>=6,<8
+tensorboard>=2.20,<3
+pyannote.audio==4.0.7
+pyannote.metrics>=4,<5
+faster-whisper>=1.2,<2
